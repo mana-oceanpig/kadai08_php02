@@ -1,0 +1,118 @@
+@charset "utf-8";
+html{
+	font-size: 62.5%;
+}
+body{
+	color: #333;
+	font-size: 1.6rem;
+	font-family: Arial, "YuGothic Medium","Yu Gothic Medium","游ゴシック Medium","游ゴシック体 Medium","Yu Gothic","游ゴシック","游ゴシック体","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ", "Zen Maru Gothic",serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	font-feature-settings : "palt";
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper{
+    text-align: center;
+    font-family: "YuGothic", sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+	display: flex;
+	justify-content: center;
+}
+
+.left{
+    width: 100%;
+    background: #ece9cf;
+}
+
+touroku{
+    width: 200px;
+    height: 50px;
+    background: rgb(131, 94, 30);
+    border-radius:30px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+
+touroku:hover{
+	opacity:0.5;
+}
+
+.right{
+    width: 100%; 
+    background: #ece9cf;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px #888;
+    width: 100%;
+}
+
+th, td{
+    padding: 5px 10px;
+    border: dashed 1px #a8d4f3;
+}
+
+th {
+    color: #080d5f;
+}
+
+.second_page{
+    display: flex;
+    justify-content: center;
+}
+
+.result{
+	margin: 10px;
+	font-family: 'Meiryo';
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #efefef;
+}
+.text-center{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	transition: all 0.5s;
+}
+a:hover{
+	opacity:0.5;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+/*--------------
+ * footer
+ *--------------*/
+.footer{
+	padding: 32px 0;
+	background: #707070;
+	font-size: 1.4rem;
+	color: #fff;
+}
+
+.footer_text{
+    text-align: center;
+}
